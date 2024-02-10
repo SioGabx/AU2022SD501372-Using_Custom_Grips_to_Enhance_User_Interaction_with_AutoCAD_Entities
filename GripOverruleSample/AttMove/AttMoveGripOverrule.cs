@@ -76,7 +76,7 @@ namespace GripOverruleSample.AttMove
                         }
                     }
 
-                    tran.Commit();
+                    tran.Abort();
                 }
             }
 

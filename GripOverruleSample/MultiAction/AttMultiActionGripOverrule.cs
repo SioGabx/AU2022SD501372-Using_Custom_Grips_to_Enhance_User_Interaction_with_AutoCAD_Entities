@@ -126,7 +126,7 @@ namespace GripOverruleSample.MultiAction
 
                     }
 
-                    tran.Commit();
+                    tran.Abort();
                 }
             }
 

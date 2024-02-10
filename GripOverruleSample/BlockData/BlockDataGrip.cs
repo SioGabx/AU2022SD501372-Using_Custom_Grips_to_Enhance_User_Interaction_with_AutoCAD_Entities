@@ -98,6 +98,10 @@ namespace GripOverruleSample.BlockData
 
         public void UpdateAttributes()
         {
+            if (ProjectData.Count < (int)CurrentModeId)
+            {
+                return;
+            }
             var projData = ProjectData[(int)CurrentModeId];
             using (var tran = BlockId.Database.TransactionManager.StartTransaction())
             {

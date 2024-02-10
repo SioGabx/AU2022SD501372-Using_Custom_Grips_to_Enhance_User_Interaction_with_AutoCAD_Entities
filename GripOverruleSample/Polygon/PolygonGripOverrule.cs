@@ -73,8 +73,6 @@ namespace GripOverruleSample.Polygon
             var poly = entity as Polyline;
             if (poly != null && poly.Closed)
             {
-                using (var tran = entity.Database.TransactionManager.StartTransaction())
-                {
                     var pt = GetPolygonExtentsCenter(poly);
                     var grip = new PolygonGrip() 
                     { 
@@ -83,8 +81,6 @@ namespace GripOverruleSample.Polygon
                     };
                     grips.Add(grip);
 
-                    tran.Commit();
-                }
 
                 if (!HideOriginals)
                 {

@@ -97,7 +97,7 @@ namespace GripOverruleSample.BlockData
                             return true;
                         }
                     }
-                    tran.Commit();
+                    tran.Abort();
                 }
             }
             return false;
