@@ -22,11 +22,11 @@ Creating custom grips would involve 2 tasks:
 ### Read more : https://www.autodesk.com/autodesk-university/class/Using-Custom-Grip-Enhance-User-Interaction-AutoCAD-Entities-2022
 
 ## Ressources :
-https://forums.autodesk.com/t5/net/gripdata-onhover-how-to-add-a-context-menu/m-p/5667518#M44869
-https://adndevblog.typepad.com/files/sgp_overruletest_xdict.zip
-https://www.theswamp.org/index.php?topic=49363.0
-https://www.keanw.com/2009/08/knowing-when-an-autocad-object-is-grip-edited-using-overrules-in-net.html
-https://forums.autodesk.com/t5/net/overrule-dynamic-block-grip-editing/m-p/3125022/highlight/true#M24726
-https://forums.autodesk.com/t5/net/gripdata-onhover-how-to-add-a-context-menu/m-p/5667410#M44865
-https://adndevblog.typepad.com/autocad/
-https://through-the-interface.typepad.com/
+- https://forums.autodesk.com/t5/net/gripdata-onhover-how-to-add-a-context-menu/m-p/5667518#M44869
+- https://adndevblog.typepad.com/files/sgp_overruletest_xdict.zip
+- https://www.theswamp.org/index.php?topic=49363.0
+- https://www.keanw.com/2009/08/knowing-when-an-autocad-object-is-grip-edited-using-overrules-in-net.html
+- https://forums.autodesk.com/t5/net/overrule-dynamic-block-grip-editing/m-p/3125022/highlight/true#M24726
+- https://forums.autodesk.com/t5/net/gripdata-onhover-how-to-add-a-context-menu/m-p/5667410#M44865
+- https://adndevblog.typepad.com/autocad/
+- https://through-the-interface.typepad.com/
