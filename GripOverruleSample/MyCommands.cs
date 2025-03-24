@@ -40,7 +40,7 @@ namespace GripOverruleSample
         #region Polygon grip overrule
 
         private static bool _polyGripEnabled = false;
-        [CommandMethod("PolygonGripOr")]
+        [CommandMethod("AU2025","PolygonGripOr", CommandFlags.Modal)]
         public static void EnablePolygonGripOverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -81,7 +81,7 @@ namespace GripOverruleSample
         #region Att Move Grip
 
         private static bool _attMoveEnabled = false;
-        [CommandMethod("AttMoveOr")]
+        [CommandMethod("AU2025","AttMoveOr", CommandFlags.Modal)]
         public static void EnableAttributeMoveGripOverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -102,7 +102,7 @@ namespace GripOverruleSample
         }
 
 
-        [CommandMethod("ApplyAttMoveOr")]
+        [CommandMethod("AU2025","ApplyAttMoveOr", CommandFlags.Modal)]
         public static void ApplyAttMoveOverruleTo()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -115,7 +115,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ClearAttMoveOr")]
+        [CommandMethod("AU2025","ClearAttMoveOr", CommandFlags.Modal)]
         public static void ClearAttMoveOrverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -133,7 +133,7 @@ namespace GripOverruleSample
         #region Increment Grip overrule
 
         private static bool _incrmentDrag = false;
-        [CommandMethod("IncrementDragOr")]
+        [CommandMethod("AU2025","IncrementDragOr", CommandFlags.Modal)]
         public static void EnableIncrementDrapGripOverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -170,7 +170,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ApplyIncrementDragOr")]
+        [CommandMethod("AU2025","ApplyIncrementDragOr", CommandFlags.Modal)]
         public static void ApplyIncrementOverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -184,7 +184,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ClearIncrementDragOr")]
+        [CommandMethod("AU2025","ClearIncrementDragOr", CommandFlags.Modal)]
         public static void ClearIncrementOverrule()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -203,7 +203,7 @@ namespace GripOverruleSample
         #region Attribute editing grip overrule
 
         private static bool _attEdit = false;
-        [CommandMethod("AttEditOr")]
+        [CommandMethod("AU2025","AttEditOr", CommandFlags.Modal)]
         public static void EnableAttEditGrip()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -223,7 +223,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ApplyAttEdit")]
+        [CommandMethod("AU2025","ApplyAttEdit", CommandFlags.Modal)]
         public static void ApplyAttEditGripToAttribute()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -234,7 +234,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ClearAttEdit")]
+        [CommandMethod("AU2025","ClearAttEdit", CommandFlags.Modal)]
         public static void ClearAttEditGripFromAttibute()
         {
             GenericHelper.ClearAttributeEditableDataList();
@@ -245,7 +245,7 @@ namespace GripOverruleSample
         #region Multiple action grip overrule
 
         private static bool _attMulti = false;
-        [CommandMethod("AttMultiGripOr")]
+        [CommandMethod("AU2025","AttMultiGripOr", CommandFlags.Modal)]
         public static void EnableAttMultiGrip()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -265,7 +265,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("SetMultiGripAtt")]
+        [CommandMethod("AU2025","SetMultiGripAtt", CommandFlags.Modal)]
         public static  void SetMultiGripToAtt()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -276,7 +276,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ClearMultiGridAtt")]
+        [CommandMethod("AU2025","ClearMultiGridAtt", CommandFlags.Modal)]
         public static void ClearMultiGripFromAtt()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -287,7 +287,7 @@ namespace GripOverruleSample
             }
         }
 
-        [CommandMethod("ToggleAttributeVisible", CommandFlags.Redraw | CommandFlags.NoHistory)]
+        [CommandMethod("AU2025","ToggleAttributeVisible", CommandFlags.Redraw | CommandFlags.NoHistory)]
         public static void MoveAttribute()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
@@ -304,7 +304,7 @@ namespace GripOverruleSample
         #region block data grip
 
         private static bool _blkDataEnabled = false;
-        [CommandMethod("BlkDataGripOr")]
+        [CommandMethod("AU2025","BlkDataGripOr", CommandFlags.Modal)]
         public static void EnableBlockDataGrip()
         {
             var dwg = CadApp.DocumentManager.MdiActiveDocument;
